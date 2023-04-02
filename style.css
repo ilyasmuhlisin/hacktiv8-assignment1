@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: #b2b2b2;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #565656;
+}
+table {
+  width: 100%;
+  height: auto;
+}
+.samaDengan {
+  background-color: #ffe84c;
+}
+
+.samaDengan input {
+  background-color: #ffe84c;
+  border: none;
+}
+
+form input {
+  background-color: #565656;
+  font-size: 22px;
+  margin: 15px;
+  padding: 5px;
+  height: 66px;
+  color: #949494;
+  text-align: right;
+}
+table td input {
+  width: 100%;
+  background-color: #949494;
+  color: #565656;
+  padding: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  border: 2px solid #000;
+  border: 0.1px solid #949494;
+}
+
+table .samaDengan:hover {
+  border: 0.1px solid #565656;
+}
+
+table .samaDengan input:hover {
+  border: none;
+}
+
+table td input:hover {
+  border: 0.1px solid #565656;
+}
